@@ -2,6 +2,8 @@
 import Link from "next/link";
 import { createClient } from "../lib/supabase/server";
 
+export const instant = false;
+
 export default async function AdminPage() {
   const supabase = await createClient();
 
