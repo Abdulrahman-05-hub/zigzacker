@@ -7,6 +7,8 @@ import { createClient } from "@/app/lib/supabase/server";
 import { createAdminClient } from "@/app/lib/supabase/admin";
 import CoordinatorEventQR from "@/app/components/CoordinatorEventQR";
 
+export const instant = false;
+
 type EventRecord = {
   id: string;
   title: string;
